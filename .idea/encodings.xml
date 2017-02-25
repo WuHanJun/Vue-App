@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/components/Article.vue" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/components/UserLogin.vue" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/components/UserReg.vue" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/filters/index.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/filters/timeFormat.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/store/actions.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/store/mutations.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/store/store.js" charset="UTF-8" />
+  </component>
+</project>
