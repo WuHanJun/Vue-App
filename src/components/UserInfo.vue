@@ -20,32 +20,32 @@
         <div class="docList">
             <ul>
                 <li class="gk-text">
-                    <i></i>
-                    <p>公开博文</p>
-                    <b></b>
+                   <i class="iconfont icon-shoucang"></i>
+                    <p>我的收藏</p>
+                    <span class="iconfont icon-iconfontxiangyou"></span>
                     <span>0</span>
                 </li>
                 <li class="mm-text">
-                    <i></i>
-                    <p>秘密博文</p>
-                    <b></b>
+                    <i class="iconfont icon-shanchu"></i>
+                    <p>清除缓存</p>
+                    <span class="iconfont icon-iconfontxiangyou"></span>
                     <span>0</span>
                 </li>
                 <li class="cg-text">
-                    <i></i>
-                    <p>草稿箱</p>
-                    <b></b>
+                    <i class="iconfont icon-dafen"></i>
+                    <p>为我打分</p>
+                    <span class="iconfont icon-iconfontxiangyou"></span>
                     <span>0</span>
                 </li>
                 <li class="sc-text">
-                    <i></i>
-                    <p>收藏夹</p>
-                    <b></b>
+                   <i class="iconfont icon-fenxiang"></i>
+                    <p>分享</p>
+                    <span class="iconfont icon-iconfontxiangyou"></span>
                     <span>0</span>
                 </li>
                 <li class="my_cz">
-                    <i></i>
-                    <p>收藏夹</p>
+                    <i class="iconfont icon-shezhi"></i>
+                    <p>设置</p>
                 </li>
             </ul>
         </div>
@@ -65,7 +65,5 @@
     }
 </script>
 <style scoped>
- .mt40 {
-     margin-top: 40px;
- }
+
 </style>

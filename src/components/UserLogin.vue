@@ -5,9 +5,9 @@
         <div class="login-box">
             <p class="lsolid"></p>
             <div class="login">
-                <router-link to="/userLogin">登录</router-link>
+                <router-link active-class="active" to="/userLogin">登录</router-link>
                 <span></span>
-                <router-link to="/userReg">注册</router-link>
+                <router-link  active-class="active" to="/userReg">注册</router-link>
             </div>
             <p class="rsolid"></p>
         </div>
@@ -22,19 +22,21 @@
             </li>
         </ul>
         <div class="footbox">
-            <input type="button" value="登 录" class="login-btn"/>
+            <input type="button" value="登录" class="login-btn"/>
             <a href="javascript:;" class="tishi">忘记密码？</a>
         </div>
     </div>
 </template>
 <style scoped>
-    body{ background:#f2f4f5;}
-    .content{max-width:6.4rem; margin:0 auto;}
+
+    .content{max-width:6.4rem; margin:0 auto; background: #f0f0f0}
+    .content .active {}
     .content .fhbtn{ padding-top:0.27rem;}
     .content .fhbtn a{ display:block;width:0.23rem;height:0.25rem; background:url(../assets/img/history1.png) no-repeat 0 0; background-size:100%; margin-left:0.3rem;}
-    .content h1{width:2.18rem;height:1.35rem; background:url(../assets/img/logo.png) no-repeat 0 0; background-size:100%; margin:0 auto; margin-top:1.22rem;}
+    .content h1{width:2.18rem;height:1.35rem; background:url(../assets/images/logo4.png) no-repeat 0 0; background-size:100%; margin:0 auto; margin-top:1.22rem;}
     .content .login{width:2.0rem;height:0.38rem; margin:0 auto; margin-top:0.85rem;}
-    .login a{width:0.97rem;height:0.38rem; font-size:0.35rem; line-height:0.38rem; float:left; color:#4c4f50; text-align:center;}
+    .login a{display:block; width:0.97rem;height:0.38rem; font-size:0.35rem; line-height:0.38rem; float:left; color:#4c4f50; text-align:center;}
+    .login a.active{display:block; height:0.48rem; border-bottom:0.1rem solid #ef4136; color:#5477b2; border-radius: 4px}
     .login span{ float:left;height:0.38rem; border-left:1px solid #4c4f50;}
     .content .login-box{ position:relative;}
     .content .login-box .lsolid{width:1.96rem;height:0.18rem; border-bottom:1px solid #4c4f50; position:absolute;top:0;left:0.1rem;}

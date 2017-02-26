@@ -50,8 +50,9 @@
     methods:{
         fetchData(id){
             var _this=this;
-            this.$http.get('../src/data/article.data').then(function(res){
+            this.$http.get('src/data/article.data').then(function(res){
                 _this.articleData=res.data[id];
+                console.log(res);
             }).catch(function(err){
                 console.log('文章详细页面:',err);
             })

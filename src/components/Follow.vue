@@ -3,7 +3,7 @@
         <div class="news-list">
             <ul>
                 <li v-for="(item,idx) in arrList">
-                    <router-link to="/article/">
+                    <router-link :to="'/article/'+item.id">
                        <h2>{{item.id}}{{item.title}}</h2>
                         <p>{{item.detail}}</p>
                     </router-link>
