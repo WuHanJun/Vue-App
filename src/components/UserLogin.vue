@@ -1,6 +1,6 @@
 <template>
     <div class="content">
-        <p class="fhbtn"><a href="javascript:;" onclick="window.history.go(-1)"></a></p>
+        <p class="fhbtn"><a href="javascript:;" onclick="window.history.go(-1)"><span class="iconfont icon-arrow-left"></span></a></p>
         <h1></h1>
         <div class="login-box">
             <p class="lsolid"></p>
@@ -32,7 +32,8 @@
     .content{max-width:6.4rem; margin:0 auto; background: #f0f0f0}
     .content .active {}
     .content .fhbtn{ padding-top:0.27rem;}
-    .content .fhbtn a{ display:block;width:0.23rem;height:0.25rem; background:url("../assets/img/history1.png") no-repeat 0 0; background-size:100%; margin-left:0.3rem;}
+    .content .fhbtn a{ display:block; margin-left:0.3rem;}
+    .content .fhbtn .iconfont{font-size: .5rem}
     .content h1{width:2.18rem;height:1.35rem; background:url("../assets/images/logo4.png") no-repeat 0 0; background-size:100%; margin:0 auto; margin-top:1.22rem;}
     .content .login{width:2.0rem;height:0.38rem; margin:0 auto; margin-top:0.85rem;}
     .login a{display:block; width:0.97rem;height:0.38rem; font-size:0.35rem; line-height:0.38rem; float:left; color:#4c4f50; text-align:center;}

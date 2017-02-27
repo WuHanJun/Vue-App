@@ -2,7 +2,7 @@
     <div>
         <div class="nav">
             <ul>
-                <li class="l-btn" onclick="window.history.go(-1)"></li>
+                <li  onclick="window.history.go(-1)"><span class="iconfont icon-arrow-left"></span></li>
             </ul>
         </div>
         <div class="content">
@@ -62,9 +62,10 @@
 </script>
     <style scoped>
      html,body{ overflow-x: hidden; }
-    .nav{width:100%; position:fixed;top:0;left:0; background:#fff; border-bottom:1px solid #e8eaec; z-index:99;}
-    .nav ul{width:6.4rem;height:0.45rem; padding-top:0.15rem; margin:0 auto;}
-    .nav ul li{width:0.29rem;height:0.31rem; background:url("../assets/img/history.png") no-repeat 0 0; background-size:100%; margin:0 0 0 0.38rem;}
+     .nav{width:100%; position:fixed;top:0;left:0; background:#fff; border-bottom:1px solid #e8eaec; z-index:99;}
+     .nav ul{width:6.4rem;height:0.45rem; padding-top:0.15rem; margin:0 auto;}
+     .nav ul li{ margin:0 0 0 0.38rem;}
+     .nav .iconfont {font-size: .4rem; cursor: pointer}
 
     .content{max-width:6.4rem; margin:0 auto; margin-top:0.6rem; background:#f2f4f5; padding-bottom:0.85rem;}
     .content .header{ padding:0.39rem 0.28rem 0.15rem 0.28rem; height:auto; background: none}
