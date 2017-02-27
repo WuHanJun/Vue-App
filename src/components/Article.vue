@@ -64,7 +64,7 @@
      html,body{ overflow-x: hidden; }
     .nav{width:100%; position:fixed;top:0;left:0; background:#fff; border-bottom:1px solid #e8eaec; z-index:99;}
     .nav ul{width:6.4rem;height:0.45rem; padding-top:0.15rem; margin:0 auto;}
-    .nav ul li{width:0.29rem;height:0.31rem; background:url(../assets/img/history.png) no-repeat 0 0; background-size:100%; margin:0 0 0 0.38rem;}
+    .nav ul li{width:0.29rem;height:0.31rem; background:url("../assets/img/history.png") no-repeat 0 0; background-size:100%; margin:0 0 0 0.38rem;}
 
     .content{max-width:6.4rem; margin:0 auto; margin-top:0.6rem; background:#f2f4f5; padding-bottom:0.85rem;}
     .content .header{ padding:0.39rem 0.28rem 0.15rem 0.28rem; height:auto; background: none}
@@ -85,10 +85,10 @@
     .foot-btn ul li{ float:left;}
     .foot-btn ul li a{width:100%;height:100%; display:block;}
     .foot-btn ul .say{width:2.03rem;height:0.52rem; border-right:1px solid #e8eaec;}
-    .say i{width:0.36rem;height:0.26rem; background:url(../assets/img/say.png) no-repeat 0 0; background-size:100%; float:left; margin-left:0.7rem; margin-top:0.13rem;}
+    .say i{width:0.36rem;height:0.26rem; background:url("../assets/img/say.png") no-repeat 0 0; background-size:100%; float:left; margin-left:0.7rem; margin-top:0.13rem;}
     .say span{height:0.26rem; float:left; line-height:0.26rem; margin-left:0.16rem; margin-top:0.13rem;}
     .foot-btn ul .zan{width:1.86rem;height:0.52rem; border-right:1px solid #e8eaec;}
-    .zan i{width:0.36rem;height:0.28rem; background:url(../assets/img/zan1.png) no-repeat 0 0; background-size:100%; float:left; margin-left:0.54rem; margin-top:0.13rem;}
+    .zan i{width:0.36rem;height:0.28rem; background:url("../assets/img/zan1.png") no-repeat 0 0; background-size:100%; float:left; margin-left:0.54rem; margin-top:0.13rem;}
     .zan span{height:0.26rem; float:left; line-height:0.26rem; margin-left:0.16rem; margin-top:0.13rem;}
     .foot-btn ul .xing{width:1.2rem;height:0.52rem; border-right:1px solid #e8eaec;}
     .xing i{width:0.34rem;height:0.24rem; margin:0 auto; display:block; padding-top:0.1rem;}

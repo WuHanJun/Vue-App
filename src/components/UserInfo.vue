@@ -1,7 +1,7 @@
 <template>
     <div class="content mt40">
         <div class="header">
-            <h2><img src="src/assets/img/headimg.png" alt=""/></h2>
+            <h2><img src="../assets/img/headimg.png" alt=""/></h2>
             <div class="user-box">
                 <router-link to="/userLogin">登录</router-link>
                 <router-link to="/userReg">注册</router-link>
