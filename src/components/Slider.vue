@@ -14,7 +14,7 @@
                         <p>百度新闻 / 文</p>
                     </div>
                 </li>
-                <li><img src="../assets/img/home.png" alt=""/>
+                <li><img src="../assets/images/news3.jpg" alt=""/>
                     <div class="text-box">
                         <h2>邓超揭秘为何白了头， 刘诗诗被赞有两条事业线</h2>
                         <p>百度新闻 / 文</p>
