@@ -2,7 +2,7 @@
     <div class="content router-view">
         <div class="banner">
             <ul class="clearfix">
-                <li><img src=news1.jpg" alt=""/>
+                <li><img src="../assets/images/news1.jpg" alt=""/>
                     <div class="text-box">
                         <h2>“地毯式轰炸”查漏补缺 实拍河南驻马店高考百日画面</h2>
                         <p>百度新闻 / 文</p>
