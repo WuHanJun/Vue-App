@@ -81,7 +81,7 @@
         .article-foot-btn li:last-child {right: 1rem;top:-0.1rem}
         .article-foot-btn li:nth-child(2){left: 2.3rem;top:-0.05rem}
         .article-foot-btn li:nth-child(3){left: 3.5rem;}
-        
+
 </style>
 
 

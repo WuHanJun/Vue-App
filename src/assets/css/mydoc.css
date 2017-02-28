@@ -38,12 +38,9 @@ body{ background:#f2f4f5;}
 .foot-btn ul li{ position: absolute}
 
 .foot-btn li:first-child .iconfont{font-size: 0.80rem}
-.foot-btn li:nth-child(2) .iconfont{font-size: 0.70rem}
 .foot-btn li:last-child .iconfont{font-size: 0.70rem}
 
-.foot-btn ul li:first-child{font-size: 0.80rem; top:-0.05rem}
-.foot-btn ul li:nth-child(2){ left: 1.6rem; top: 0.04rem;}
-.foot-btn ul li:last-child{ left:3.2rem; top: -0.02rem;}
-
+.foot-btn ul li:first-child{font-size: 0.80rem; top:-0.02rem; left: 0.46rem}
+.foot-btn ul li:last-child{ left:2.8rem; top: -0.02rem;}
 
 
